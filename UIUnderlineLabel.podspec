@@ -7,7 +7,7 @@ s.summary      = "UIUnderlineLabel"
 s.homepage     = "http://www.eebochina.com"
 s.author       = { "eebochina" => "eeweibo@eebochina.com" }
 s.source       = { :git => "https://github.com/eebochina/UIUnderlineLabel.git", :tag => s.version}
-s.source_files  = 'UIUnderlineLabel/*.{h,m}'
+s.source_files  = '**/*.{h,m}'
 #s.resource     = 'DMFlowView.bundle'
 s.platform     = :ios, "6.0"
 s.requires_arc = true
